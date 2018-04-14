@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2018-04-14</Date>
+  <Beta>True</Beta>
+  <Category>s</Category>
+  <Name>AlexaAppServer</Name>
+  <Project>https://github.com/alexa-js/alexa-app-server</Project>
+  <Overview>
+    Alexa app server
+  <Description>
+    Alexa app server
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/mikehutchinson/alexa-app-server/</Registry>
+  <GitHub>https://github.com/hutchy2570/unraid-alexa-app-server</GitHub>
+  <Repository>mikehutchinson/alexa-app-server</Repository>
+  <Support>https://github.com/hutchy2570/unraid-alexa-app-server</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/AlexaAppServer/apps</HostDir>
+      <ContainerDir>/opt/app/apps</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/AlexaAppServer/public_html</HostDir>
+      <ContainerDir>/opt/app/public_html</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/AlexaAppServer/server</HostDir>
+      <ContainerDir>/opt/app/server</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
+</Containers>
