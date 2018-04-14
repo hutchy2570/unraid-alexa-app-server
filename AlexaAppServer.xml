@@ -1,26 +1,32 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>AlexaAppServer</Name>
+  <Beta>True</Beta>
+  <Date>2018-04-14</Date>
+  <Category>Network:Other,Status:Beta</Category>
+  <Project>https://github.com/alexa-js/alexa-app-server</Project>
   <Repository>mikehutchinson/alexa-app-server</Repository>
   <Registry>https://hub.docker.com/r/mikehutchinson/alexa-app-server/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
-  <Overview/>
+  <Overview>
+    Alexa app server
+  </Overview>
+  <Description>
+    Alexa app server
+  </Description>
   <Category/>
   <WebUI/>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
-  <DateInstalled>1523717390</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <DonateImg/>
   <MinVer/>
-  <Description/>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
